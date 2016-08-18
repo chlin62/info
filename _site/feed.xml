@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cheng Han, Lin</title>
+    <description>Echo's blog,use Jekyll and github pages.</description>
+    <link>http://chlin62.github.io//</link>
+    <atom:link href="http://chlin62.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 19 Aug 2016 04:30:40 +0800</pubDate>
+    <lastBuildDate>Fri, 19 Aug 2016 04:30:40 +0800</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>這是我的第一篇文章</title>
+        <description>&lt;p&gt;其實有點難用&lt;/p&gt;
+</description>
+        <pubDate>Thu, 08 Jan 2015 00:00:00 +0800</pubDate>
+        <link>http://chlin62.github.io//life/2015/01/08/first-blog.html</link>
+        <guid isPermaLink="true">http://chlin62.github.io//life/2015/01/08/first-blog.html</guid>
+        
+        <category>blog</category>
+        
+        
+        <category>Life</category>
+        
+      </item>
+    
+  </channel>
+</rss>

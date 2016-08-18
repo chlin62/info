@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: <http://chlin62.github.io/sitemap.xml>

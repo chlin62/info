@@ -23,12 +23,12 @@ author:
   head_img: 'static/img/landing/chlin.jpg'
 
 # social link
-jingyu:
-  first_name: 'Yu'
-  last_name: 'Jing'
-  description: 'Painter.'
-  link: 'http://angular.jack003.com'
-  email: '805963294@qq.com'
+chlin:
+  first_name: 'Cheng Han'
+  last_name: 'Lin'
+  description: '國立交通大學資訊管理研究所'
+  link: 'https://www.facebook.com/chenghan.lin62'
+  email: 'chlin62@outlook.com'
 
 # landing page
 landing:
@@ -62,11 +62,7 @@ project:
 # blog index
 index:
   home: 'Home'
-  python: 'Python'
-  linux: 'Linux'
-  html: 'HTML'
-  database: 'Database'
-  mac: 'Mac'
+  ip : '影像處理'
   life: 'Life'
 
 # donate

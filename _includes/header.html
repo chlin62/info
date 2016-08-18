@@ -30,40 +30,14 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a class="page-scroll" href="/blog/">{{ site.index.home }}</a></li>
 
-                        {% if page.title == site.index.python %}
-                            <li class="active">
-                        {% else %}
-                            <li>
-                        {% endif %}
-                            <a class="page-scroll" href="/python/">{{ site.index.python }}</a></li>
 
-                        {% if page.title == site.index.linux %}
+                        {% if page.title == site.index.ip %}
                             <li class="active">
                         {% else %}
                             <li>
                         {% endif %}
-                            <a class="page-scroll" href="/linux/">{{ site.index.linux }}</a></li>
+                            <a class="page-scroll" href="/ip/">{{ site.index.ip }}</a></li>
 
-                        {% if page.title == site.index.html %}
-                            <li class="active">
-                        {% else %}
-                            <li>
-                        {% endif %}
-                            <a class="page-scroll" href="/html/">{{ site.index.html }}</a></li>
-
-                        {% if page.title == site.index.database %}
-                            <li class="active">
-                        {% else %}
-                            <li>
-                        {% endif %}
-                            <a class="page-scroll" href="/database/">{{ site.index.database }}</a></li>
-
-                        {% if page.title == site.index.mac %}
-                            <li class="active">
-                        {% else %}
-                            <li>
-                        {% endif %}
-                            <a class="page-scroll" href="/mac/">{{ site.index.mac }}</a></li>
 
                         {% if page.title == site.index.life %}
                             <li class="active">
