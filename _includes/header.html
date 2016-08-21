@@ -38,6 +38,13 @@
                         {% endif %}
                             <a class="page-scroll" href="/ip/">{{ site.index.ip }}</a></li>
 
+                        {% if page.title == site.index.cloud %}
+                            <li class="active">
+                        {% else %}
+                            <li>
+                        {% endif %}
+                            <a class="page-scroll" href="/cloud/">{{ site.index.cloud }}</a></li>
+
 
                         {% if page.title == site.index.life %}
                             <li class="active">

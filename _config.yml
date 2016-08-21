@@ -63,7 +63,9 @@ project:
 index:
   home: 'Home'
   ip : '影像處理'
+  cloud: '雲端技術'
   life: 'Life'
+
 
 # donate
 donate:

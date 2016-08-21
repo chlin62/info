@@ -1,23 +1,23 @@
 ---
 layout: blog
-title: Python
-permalink: /python/
+title: 雲端技術與應用
+permalink: /cloud/
 ---
 
 <div class="row">
     <div class="col-lg-12 text-center">
         <div class="navy-line"></div>
-        <h1>Python</h1>
+        <h1>雲端技術與應用</h1>
     </div>
 </div>
 
 <div class="wrapper wrapper-content  animated fadeInRight blog">
     <div class="row">
-		<ul id="pag-itemContainer" style="list-style:none;">
+        <ul id="pag-itemContainer" style="list-style:none;">
     {% assign counter = 0 %}
-		{% for post in site.categories['Python'] %}
-		{% assign counter = counter | plus: 1 %}
-		<li>
+        {% for post in site.categories['cloud'] %}
+        {% assign counter = counter | plus: 1 %}
+        <li>
         <div class="col-lg-8 col-lg-offset-2">
             <div class="ibox">
                 <div class="ibox-content">
@@ -30,7 +30,7 @@ permalink: /python/
                         <strong>{{ site.author.name }}</strong> <span class="text-muted"><i class="fa fa-clock-o"></i> {{ post.date | date: "%-d %b %Y" }}</span>
                     </div>
                     <p>
-                    	{{ post.content | strip_html | truncate:100 }}
+                        {{ post.content | strip_html | truncate:100 }}
                     </p>
                     <div class="row">
                         <div class="col-md-6">
