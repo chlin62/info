@@ -20,15 +20,21 @@ openstack至今已經六年了。
 
 openstack目的在於實現一個雲操作系統，一個具有部署與管理公有雲、私有雲以及混合雲架構iaas能力的平台。
 
+
+
 ## vm vs instance
 
 任何可以被處理運算的單元都是instance，他可能是硬體、vm、container、應用程式。openstack偏向一般作業系統在做的事情。
+
+
 
 ## openstack是什麼？
 
 是一個框架、一個可以建立公有雲和私有雲的基礎架構。這必不是一個現成的產品，要想開展基礎架構方面的工作，企業需要顧問和開發人員。很多時候還需要第三方的集成工具。
 
 因為不是產品所以初期導入時，需要有人幫忙安裝部署。\(like sap\)
+
+
 
 ## 三大核心區塊
 
@@ -44,9 +50,13 @@ openstack目的在於實現一個雲操作系統，一個具有部署與管理�
   openstack的storege大約分成三大塊 swift sinder 馬尼拉（在openstack中可以透過 restful url的方式來存取他的儲存空間），參考（http:\/\/www.csdn.net\/article\/2013-03-29\/2814703）
   fat32 上限是4G，最大是2TB，傳統的檔案系統會遇到單一檔案的大小的問題，object的話會把它切成小塊小塊來進行儲存。
 
+
+
 ## DeCore
 
 現在openstack越來越成熟，是因為Decore越來越穩定的原因。有幾個元件是部署openstack一定要有的元件。
+
+
 
 ## BigTent
 
@@ -68,6 +78,8 @@ openstack目的在於實現一個雲操作系統，一個具有部署與管理�
 
 
 其他如果有需要的話就可以自己額外的加進去。
+
+
 ## openstack的問題是什麼？
 
 1. 難用
@@ -81,6 +93,8 @@ openstack目的在於實現一個雲操作系統，一個具有部署與管理�
 5. 版本次頻率太快-企業組織無發跟上腳步
 
 6. 相容性問題-自己的程式碼 社群的程式碼
+
+
 
 
 ## 企業會想要怎麼樣的平台
@@ -98,6 +112,8 @@ openstack目的在於實現一個雲操作系統，一個具有部署與管理�
 6. 便宜
 
 
+
+
 ## 企業不會想要的是怎樣的雲平台
 
 1. 降低工作效率
@@ -113,6 +129,8 @@ openstack目的在於實現一個雲操作系統，一個具有部署與管理�
 6. 不一定想知道底層的技術
 
 
+
+
 ## 企業級OpenStack部署套件
 
 1. 高可用
@@ -122,6 +140,8 @@ openstack目的在於實現一個雲操作系統，一個具有部署與管理�
 3. 高度彈性
 
 4. 友善的安裝環境
+
+
 
 
 ## OpenStack痛處
@@ -137,11 +157,15 @@ openstack目的在於實現一個雲操作系統，一個具有部署與管理�
 5. 網路環境
 
 
+
+
 ## JUJU MAAS
 
 適用於ubuntu的部署工具。
 
 ＃用14版的ubuntu\(http:\/\/www.ubuntu.com\/download\/cloud\/install-openstack-with-autopilot\)
+
+
 
 ## FUEL
 
@@ -149,13 +173,19 @@ fuel很多東西都是給全UI的，開個瀏覽器就可以進去。利用企�
 
 ＃切記如果運用fuel的話需要兩張網卡。\(https:\/\/github.com\/openstack\/fuel-virtualbox\)
 
+
+
 ## Crowbar
 
 suse用的部署套件。
 
+
+
 ## RDO
 
 單機上面很容易做openstack的部署。\(https:\/\/www.rdoproject.org\/\)
+
+
 
 ## KOLLA
 
