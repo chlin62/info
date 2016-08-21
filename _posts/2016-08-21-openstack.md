@@ -10,9 +10,9 @@ icon: fa-bookmark-o
 ---
 
 
-
+# openstack workshop
 2014\/08\/21  Jack Lai 台灣威網 產品經理與技術顧問
-
+---
 
 物聯網的特性-&gt;透過url去access-&gt;物件儲存器
 
