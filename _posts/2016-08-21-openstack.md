@@ -6,7 +6,7 @@ keywords: "openstack,blog,cloud"
 date: 2015-01-08
 categories: [cloud]
 tags: [openstack,cloud]
-icon: fa-bookmark-o
+icon: fa-cloud
 ---
 
 
