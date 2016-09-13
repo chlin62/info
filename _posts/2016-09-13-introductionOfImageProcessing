@@ -5,8 +5,8 @@ desc: "所謂的影像他指的其實是現實之中存在著某種訊息的信�
 keywords: "數位影像處理,基本概念"
 date: 2015-09-13
 categories: [ip]
-tags: [image processing,Example of file-image-o fa-file-image-o]
-icon: fa-cloud
+tags: [image_processing]
+icon: fa-file-image-o
 ---
 
 #數位影像處理
